@@ -7,20 +7,20 @@ function ImageLinkForm({prop1,prop2})
 
 return(
     <div>
-        <p className="class to be added later">
+        <p className="f3">
         {'This magic face detection app will detect face in your images. Give it a try!'}
         </p>
 
-        <div className="class to be added later">
-            <div>
+        <div className="center">
+            <div className="form center pa4 br3 shadow-5">
                 <input
-                className=""
+                className="f4 pa2 w-70 center"
                 type={"text"}
                 onChange={"function to be added later on!"}       
                 />
                 
                 <button
-                className="class to be added later"
+                className="grow f4 link w-30 ph3 pv2 dib white bg-light-purple "
                 onSubmit={"function to be added later"}
                 >
                  Submit   
