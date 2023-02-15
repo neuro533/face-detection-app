@@ -3,6 +3,7 @@ import './App.css';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import SignIn from './components/SignIn/SignIn';
+import Register from './components/Register/Register';
 
 
 class App extends Component{
@@ -17,7 +18,8 @@ class App extends Component{
         <div className='App'>
          {/* <Logo /> */}
          {/* <ImageLinkForm />  */}
-         <SignIn  />
+         {/* <SignIn  /> */}
+         <Register />
 
         </div>  
         
