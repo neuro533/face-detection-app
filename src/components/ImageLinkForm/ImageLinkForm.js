@@ -14,7 +14,7 @@ function ImageLinkForm({onInputChange,onButtonSubmit}) {
         <input 
           className='f4 pa2 w-70 center' 
           type='text' 
-          onChange={onInputChange}
+          onChange={onInputChange} 
           />    
         
         <button

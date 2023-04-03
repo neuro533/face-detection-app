@@ -27,7 +27,7 @@ class App extends Component {
     this.state = {
        input:'',
        imageUrl:'',
-       SignIn:'SignIn',
+       SignIn:'Home',
        isSignedIn:false,
        user:{
         id:'',
